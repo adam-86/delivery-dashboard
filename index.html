@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Original Design From dribbble.com
+  link: https://dribbble.com/shots/3808674-Delivery-Dashboard-standalone/attachments/860067 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="master.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400" rel="stylesheet">
+  <title>Delivery Dashboard</title>
+</head>
+<body>
+  <div class="project_container">
+
+    <aside class="left_bar">
+
+      <a href="" class="left_nav">Dashboard</a>
+      <a href="" class="left_nav">Payments</a>
+      <a href="" class="left_nav">Menu</a>
+      <a href="" class="left_nav">Customers</a>
+
+      <img id="cart" src="assets/cart-icon.png" alt="">
+      <div class="icon_container">
+
+        <img id="guage" class="left_bar_icons" src="assets/guage-icon.png" alt="">
+
+        <img id="money" class="left_bar_icons" src="assets/money-icon.png" alt="">
+
+
+        <img id="menu" class="left_bar_icons" src="assets/menu-icon.png" alt="">
+
+
+        <img id="people" class="left_bar_icons" src="assets/people-icon.png" alt="">
+
+     </div>
+
+     <img id="tip" src="assets/tip-icon.png" alt="">
+     <div id="tip_text">
+       <p>Man bun mumblecore bicycle rights next level, distillery scenester fanny pack. </p>
+     </div>
+    </aside>
+
+
+     <a id="my-account" href="#">My Account</a>
+    <img id="bell" src="assets/bell.png" alt="">
+    <img id="burger_menu" src="assets/burger-menu.png" alt="">
+
+    <img id="avatar" src="assets/avatar.png" alt="">
+    <img class="search_icon" src="assets/search-icon.png" alt="">
+    <input type="search" placeholder="Search invoices, redemptions, custumers...">
+    <h1 class="large_heading">SUMMARY</h1>
+    <div class="range_select">
+      <a href="#">Week</a>
+      <a href="#">Month</a>
+      <a href="#">Year</a>
+
+
+    </div>
+
+    <div class="center_content">
+
+
+
+
+      <input type="button" id="voucher_btn" value="Vouchers">
+
+      <div class="stat-box">
+        <h3>REVENUE</h3>
+        <h2>$5,50,489.00</h2>
+        <p>$50,000.00 &UpArrow;</p>
+        <img src="assets/clip-board.png" alt="">
+      </div>
+      <div class="stat-box">
+        <h3>INVOICES PENDING</h3>
+        <h2>$50,000.00</h2>
+        <p>$5,000 From Last Month</p>
+        <img src="assets/check-list.png" alt="">
+      </div>
+      <div class="stat-box">
+        <h3>CUSTOMERS</h3>
+        <h2>4356</h2>
+        <p>56 New &UpArrow; 4300 Old &UpArrow;</p>
+        <img src="assets/people.png" alt="">
+      </div>
+      <div class="stat-box">
+        <h3>RATINGS & REVIEWS</h3>
+        <h2>4.5 / 400</h2>
+        <p>0.9 &UpArrow;  20 &UpArrow;</p>
+        <img src="assets/star.png" alt="">
+      </div>
+
+
+      <div class="order_insight_chart">
+        <div class="container">
+          <svg class="radial-svg" viewbox="0 0 50 50">
+            <circle
+              cx="25"
+              cy="25"
+              r="23.8"
+              fill="none"
+              stroke="#dae3eb"
+              stroke-width="2.33333"
+              percent="100%"
+             />
+
+            <circle
+            id="blueCircle"
+              cx="25"
+              cy="25"
+              r="23.8"
+              fill="none"
+              stroke="#479ce4"
+              stroke-width="2.333333"
+              percent="88"
+             />
+             <circle
+             id="purpleCircle"
+              cx="25"
+              cy="25"
+              r="23.8"
+              fill="none"
+              stroke="#8366ec"
+              stroke-width="2.33333"
+              percent="80"
+             />
+
+          </svg>
+
+          <h2>ORDER INSIGHTS</h2>
+          <div id="daily-orders">
+            <div class="inside_svg">
+              <h2>101</h2>
+              <p>Avg. Daily Orders</p>
+            </div>
+          </div>
+        </div>
+          <div class="right_indicators">
+          <div id="delivered" class="indicator">
+            <p>Delivered</p>
+            <p class="indicator_numbers" style="color: black">83</p>
+            <img class="line" src="assets/purple-line.png" alt="">
+          </div>
+
+          <div id="canceled" class="indicator">
+            <p>Cancelled</p>
+            <p class="indicator_numbers" style="color: black">18</p>
+            <img class="line" src="assets/blue-line.png" alt="">
+
+          </div>
+          </div>
+<!--
+          <form>
+            <input type="range" min="0" max="100" id="purple-percentage" value="80">
+            <input type="range" min="0" max="100" id="blue-percentage" value="88">
+          </form> -->
+        </div>
+
+      </div>
+
+      <div class="top_chart">
+        <h2>Top Dishes</h2>
+
+        <div class="top_container">
+          <span>1. Tandoori Chicken</span>
+          <img src="assets/loader-thing.png" alt="">
+        </div>
+        <div class="top_container">
+        <span>2. Paneer Ticka</span>
+        <img src="assets/loader-thing.png" alt="">
+        </div>
+        <div class="top_container">
+        <span>3. Dal Makhani</span>
+        <img src="assets/loader-thing.png" alt="">
+        </div>
+        <div class="top_container">
+          <span>4. Butter Chicken</span>
+          <img src="assets/loader-thing.png" alt="">
+        </div>
+
+      </div>
+
+    <aside class="right_bar">
+      <div class="right_bar_title">
+        <h2>ORDERS</h2>
+        <a href="">New</a>
+        <a href="">Pending</a>
+        <a href="">Delivered</a>
+
+      </div>
+
+      <div class="order_numbers">
+
+      </div>
+
+
+       <div class="order_card">
+         <div class="order_bullet">
+           <span class="order_number">123912013</span>
+         </div>
+
+         <p>1 Butter Chicken(BL)</p>
+         <p>1 Dal makhani</p>
+         <p>2 Plain naan</p>
+         <p>1 Butter roti</p>
+         <p>Payment:</p>
+         <p>Amount</p>
+
+         <span>COD</span>
+         <span>$8.50.00</span>
+
+
+
+        <div clas="button_container">
+         <input type="button" value="&#10004;">
+         <input type="button" value="X">
+         <input type="button" value="&#9734;">
+       </div>
+      </div>
+
+      <div class="order_card">
+        <div class="order_bullet">
+          <span class="order_number">11019283</span>
+        </div>
+
+        <p>1 Butter Chicken(BL)</p>
+        <p>1 Dal makhani</p>
+        <p>2 Plain naan</p>
+        <p>1 Butter roti</p>
+        <p>Payment:</p>
+        <p>Amount:</p>
+
+        <span>COD</span>
+        <span>$8.50.00</span>
+
+
+       <div clas="button_container">
+        <input type="button" value="&#10004;">
+        <input type="button" value="X">
+        <input type="button" value="&#9734;">
+      </div>
+     </div>
+    </aside>
+  </div>
+
+<script src="main.js" charset="utf-8"></script>
+</body>
+</html>
