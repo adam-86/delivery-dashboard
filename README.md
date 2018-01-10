@@ -2,7 +2,7 @@
 Replication project #1
 ## Delivery Dashboard
 
-#### Veiw project here: <a href="https://adam-86.github.io/delivery-dashboard/" target="blank">Delivery Dashboard</a>
+#### Veiw project here: <a href="https://adam-86.github.io/delivery-dashboard/" target="_blank">Delivery Dashboard</a>
 
 #### What is it?
 One of many small ~~craft~~ code projects completed for the sole purpose of learning new things and to help prepare myself for some of the unique challenges I will undoubtedly face moving forward!
