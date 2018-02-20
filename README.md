@@ -10,7 +10,8 @@ One of many small ~~craft~~ code projects completed for the sole purpose of lear
 ### Original Design
 This was designed by a talented user on dribbble.com. I liked the look of it so I decided to re-create it with HTML, and CSS.
 
-Click the link to view the original. https://dribbble.com/shots/4000033-TV-Analytics-Dashboard
+Click the link to view the original. [Delivery Dashboard](https://dribbble.com/shots/3808674-Delivery-Dashboard-standalone/attachments/860067 "Delivery Dashboard")
+
 ### Cool Stuff
 The "Daily Orders" pie chart presented a great oportunity to play around with SVG's, and the entire dashboard is 100% responsive!
 
