@@ -77,7 +77,10 @@
   width: 1.8vw;
   display: table-cell;
   margin: auto;
-  margin-top: 5vw; }
+  margin-top: 5vw;
+  cursor: pointer; }
+  .left_bar_icons:hover {
+    transform: scale(1.05); }
 
 #guage {
   margin-top: 0;
@@ -97,16 +100,20 @@
   padding-left: 3.5%; }
 
 #burger_menu {
-  width: 10px;
+  width: 2vw;
   position: absolute;
-  right: 2%;
-  top: 2%; }
+  right: 1%;
+  top: 2%;
+  z-index: 2; }
+  #burger_menu:hover {
+    transform: scale(1.05); }
 
 #avatar {
   position: absolute;
   right: 4vw;
   width: 2vw;
-  top: .5vw; }
+  top: .5vw;
+  z-index: 2; }
 
 #my-account {
   position: absolute;
@@ -114,7 +121,8 @@
   right: 8vw;
   top: 1vw;
   text-decoration: none;
-  color: grey; }
+  color: grey;
+  z-index: 2; }
 
 #bell {
   position: absolute;
@@ -170,7 +178,10 @@ input[type="search"] {
   height: 172px;
   max-width: 28.3%;
   max-height: 16.5%;
-  box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.26); }
+  box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer; }
+  .stat-box:hover {
+    box-shadow: 0px 2px 30px 4px rgba(0, 0, 0, 0.26); }
   .stat-box h3 {
     position: relative;
     font-size: .8vw;
@@ -199,28 +210,19 @@ input[type="search"] {
     top: 17%;
     left: 16.5%;
     background: linear-gradient(135deg, #f8855d 0%, #f77680 51%, #f766aa 100%); }
-    .stat-box:nth-of-type(1) h3 {
-      left: 4%; }
-    .stat-box:nth-of-type(1) h2 {
+    .stat-box:nth-of-type(1) h3, .stat-box:nth-of-type(1) h2 {
       left: 4%; }
   .stat-box:nth-of-type(2) {
     top: 17%;
     right: 23.5%;
     background: linear-gradient(135deg, #8b6fe9 0%, #6576d7 51%, #2a83ba 100%); }
-    .stat-box:nth-of-type(2) h3 {
-      left: 8%; }
-    .stat-box:nth-of-type(2) h2 {
-      left: 8%; }
-    .stat-box:nth-of-type(2) p {
+    .stat-box:nth-of-type(2) h3, .stat-box:nth-of-type(2) h2, .stat-box:nth-of-type(2) p {
       left: 8%; }
   .stat-box:nth-of-type(3) {
     top: 37.5%;
     left: 16.5%;
     background: linear-gradient(135deg, #39cdbb 0%, #22aec6 51%, #1198ce 100%); }
-    .stat-box:nth-of-type(3) h3 {
-      top: 8%;
-      left: 4%; }
-    .stat-box:nth-of-type(3) h2 {
+    .stat-box:nth-of-type(3) h3, .stat-box:nth-of-type(3) h2 {
       top: 8%;
       left: 4%; }
   .stat-box:nth-of-type(4) {
@@ -351,17 +353,19 @@ input[type="search"] {
     position: absolute;
     left: 5%;
     font-size: .8vw;
-    color: #7C7C7C; }
+    color: #7C7C7C;
+    cursor: pointer; }
+    .top_container span:hover {
+      text-decoration: underline; }
 
-/*************** Right Bar *****************/
+/*************** Right Bar **************** */
 .right_bar {
   position: absolute;
   top: 0;
   right: 0;
   width: 17vw;
   height: 100%;
-  background: #E9F0F5;
-  z-index: -1; }
+  background: #E9F0F5; }
 
 .right_bar_title {
   position: relative;
@@ -388,7 +392,16 @@ input[type="search"] {
     left: -6.5vw;
     color: white;
     padding-right: 18%;
-    text-decoration: none; }
+    text-decoration: none;
+    cursor: pointer; }
+    .right_bar_title a:hover {
+      text-decoration: underline;
+      transform: scale(1.05); }
+
+.order_links:hover {
+  z-index: 5;
+  text-decoration: underline;
+  transform: scale(1.05); }
 
 .line {
   position: relative;
@@ -417,10 +430,7 @@ input[type="search"] {
     margin: 0;
     padding: 1%;
     margin-left: 2%; }
-    .order_card p:nth-of-type(5) {
-      padding-top: 6%;
-      color: grey; }
-    .order_card p:nth-of-type(6) {
+    .order_card p:nth-of-type(5), .order_card p:nth-of-type(6) {
       padding-top: 6%;
       color: grey; }
   .order_card input[type="button"] {

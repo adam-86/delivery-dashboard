@@ -1,0 +1,475 @@
+.project_container
+  position: relative
+  width: 86vw
+  height: 51vw
+  max-width: 1800px
+  max-height: 1080px
+  box-shadow: 0px 2px 26px 3px rgba(0, 0, 0, 0.26)
+  font-family: 'Nunito Sans', sans-serif
+
+.left_bar
+  position: absolute
+  left: 0
+  top: 0
+  width: 15%
+  height: 51vw
+
+#cart
+  position: absolute
+  width: 1.2vw
+  margin-left: 1.7vw
+  top: .8vw
+
+#tip
+  position: relative
+  width: 3vw
+  left: 37%
+  top: 70%
+  z-index: 2
+
+.left_nav
+  text-align: center
+  position: absolute
+  font-size: .7vw
+  text-decoration: none
+  color: #A1A1A1
+  margin-top: 30%
+  left: 36%
+  top: 11%
+  &:nth-of-type(2)
+    top: 23%
+  &:nth-of-type(3)
+    top: 36%
+    left: 42%
+  &:nth-of-type(4)
+    top: 49%
+    left: 36%
+
+#tip_text
+  position: absolute
+  z-index: 1
+  width: 7vw
+  height: 9vw
+  bottom: 8%
+  left: 22%
+  background: #DFE7ED
+  p
+    padding: 10%
+    text-align: center
+    color: #282828
+    font-family: 'Nunito Sans', sans-serif
+    font-size: .7vw
+
+.icon_container
+  position: absolute
+  height: 24vw
+  width: 5vw
+  top: 6.2vw
+  left: 3.8vw
+  span
+    position: relative
+    margin-left: 10%
+    top: 0
+    font-size: .8vw
+    color: #A1A1A1
+
+.left_bar_icons
+  width: 1.8vw
+  display: table-cell
+  margin: auto
+  margin-top: 5vw
+  cursor: pointer
+  &:hover
+    transform: scale(1.05)
+
+#guage
+  margin-top: 0
+  margin: auto
+
+#voucher_btn
+  position: absolute
+  width: 7.5%
+  height: 3.5%
+  top: 1.8%
+  right: 21.8%
+  border-radius: 2px
+  background: #4E92DF
+  border: none
+  color: white
+  font-size: .7vw
+  padding-left: 3.5%
+
+#burger_menu
+  width: 2vw
+  position: absolute
+  right: 1%
+  top: 2%
+  z-index: 2
+  &:hover
+    transform: scale(1.05)
+
+#avatar
+  position: absolute
+  right: 4vw
+  width: 2vw
+  top: .5vw
+  z-index: 2
+
+#my-account
+  position: absolute
+  font-size: .8vw
+  right: 8vw
+  top: 1vw
+  text-decoration: none
+  color: grey
+  z-index: 2
+
+#bell
+  position: absolute
+  height: 1.5vw
+  right: 14vw
+  top: 1vw
+
+input[type="search"]
+  position: absolute
+  left: 11%
+  top: 1%
+  border: 0
+  width: 60%
+  border: none
+  font-size: .7vw
+  color: #6f18fa
+  height: 5%
+  background: transparent
+  &:focus
+    outline: none
+  &:hover
+    box-shadow: 0px 1px 0px rgba(41, 41, 41, 0.13)
+
+.search_icon
+  position: absolute
+  left: 9.2%
+  top: 2.5%
+  height: .8vw
+
+.large_heading
+  position: absolute
+  top: 7.5%
+  left: 16.5%
+  color: #C9D4DC
+  font-size: 1.7vw
+  font-weight: 300
+
+.range_select
+  position: absolute
+  font-size: .8vw
+  top: 11.2%
+  right: 16%
+  width: 20%
+  a
+    padding: 5%
+    text-decoration: none
+    color: #5494DB
+    font-family: 'Nunito Sans', sans-serif
+
+.stat-box
+  position: absolute
+  width: 520px
+  height: 172px
+  max-width: 28.3%
+  max-height: 16.5%
+  box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.26)
+  cursor: pointer
+  &:hover
+    box-shadow: 0px 2px 30px 4px rgba(0, 0, 0, 0.26)
+  h3
+    position: relative
+    font-size: .8vw
+    color: white
+    top: 3%
+    letter-spacing: .1vw
+    font-weight: 200
+  h2
+    position: relative
+    font-size: 1.5vw
+    color: white
+    letter-spacing: .1vw
+    font-weight: 200
+  p
+    position: relative
+    color: white
+    font-size: .8vw
+    left: 4%
+    top: -7%
+  img
+    position: absolute
+    height: 80%
+    right: 0
+    bottom: 0
+  &:nth-of-type(1)
+    top: 17%
+    left: 16.5%
+    background: linear-gradient(135deg, #f8855d 0%, #f77680 51%, #f766aa 100%)
+    h3, h2
+      left: 4%
+  &:nth-of-type(2)
+    top: 17%
+    right: 23.5%
+    background: linear-gradient(135deg, #8b6fe9 0%, #6576d7 51%, #2a83ba 100%)
+    h3, h2, p
+      left: 8%
+  &:nth-of-type(3)
+    top: 37.5%
+    left: 16.5%
+    background: linear-gradient(135deg, #39cdbb 0%, #22aec6 51%, #1198ce 100%)
+    h3, h2
+      top: 8%
+      left: 4%
+  &:nth-of-type(4)
+    top: 37.5%
+    right: 23.5%
+    background: linear-gradient(135deg, #e36ee5 0%, #a466ee 51%, #8467f3 100%)
+    h3
+      top: 7%
+      left: 8%
+    h2
+      left: 7%
+      top: 5.5%
+    p
+      left: 8%
+
+.order_insight_chart
+  position: absolute
+  width: 29%
+  height: 40%
+  bottom: 0
+  margin-left: 48%
+  h2
+    font-size: 1vw
+    margin-left: 5%
+    padding: 0
+    margin-top: 8%
+    color: #AFBFCA
+  p
+    position: relative
+    left: 60%
+    font-size: .8vw
+    color: #989898
+    margin-top: 20%
+
+.right_indicators
+  position: absolute
+  left: 50%
+  top: 27.5%
+  p
+    top: -.5vw
+    margin-left: 1vw
+
+#canceled
+  position: relative
+  background-color: #4B9DE2
+  height: .5vw
+  width: .5vw
+  border-radius: 50%
+  left: 1vw
+  top: 5.8vw
+
+#delivered
+  position: relative
+  background-color: #8568EC
+  height: .5vw
+  width: .5vw
+  border-radius: 50%
+  left: 1vw
+  top: 1vw
+
+.inside_svg
+  position: relative
+  height: 10vw
+  width: 10vw
+  left: 7%
+  top: 27%
+  margin-top: 8%
+  h2
+    position: absolute
+    text-align: center
+    font-size: 1.5vw
+    font-family: 'Nunito Sans', sans-serif
+    top: 30%
+    left: 32%
+    color: black
+  p
+    position: absolute
+    text-align: center
+    left: 20%
+    top: 36%
+    font-size: .8vw
+
+.radial-svg
+  position: absolute
+  top: 27%
+  left: 8%
+  width: 10vw
+  height: 10vw
+  transform: rotate(28deg)
+  box-shadow: 0 0px 50px rgba(107, 106, 209, 0.5)
+  border-radius: 50%
+  display: block
+
+
+
+.top_chart
+  position: absolute
+  width: 29%
+  height: 500px
+  max-height: 40%
+  bottom: 0
+  left: 16%
+  h2
+    font-size: 1vw
+    margin-left: 5%
+    padding: 0
+    margin-top: 8%
+    color: #AFBFCA
+
+.top_container
+  position: relative
+  width: 100%
+  left: 0
+  height: 3.5vw
+  &:nth-of-type(1)
+    margin-top: 5%
+  img
+    position: absolute
+    right: 0
+    height: 1.7vw
+    right: 9%
+    margin-top: -2%
+    &:nth-of-type(1)
+      transform: rotate(-30deg)
+    &:nth-of-type(2)
+      transform: rotate(60deg)
+    &:nth-of-type(3)
+      transform: rotate(20deg)
+  span
+    position: absolute
+    left: 5%
+    font-size: .8vw
+    color: #7C7C7C
+    cursor: pointer
+    &:hover
+      text-decoration: underline
+
+
+/*************** Right Bar ****************
+
+.right_bar
+  position: absolute
+  top: 0
+  right: 0
+  width: 17vw
+  height: 100%
+  background: #E9F0F5
+
+
+.right_bar_title
+  position: relative
+  height: 160px
+  width: 100%
+  height: 6vw
+  background: #4E92DF
+  top: 7%
+  display: flex
+  h2
+    position: relative
+    margin: 0
+    padding: 0
+    color: white
+    font-size: 1.5vw
+    font-weight: 200
+    margin-left: 8%
+    top: 15%
+    letter-spacing: .5px
+  a
+    position: relative
+    font-size: .8vw
+    bottom: -4.5vw
+    left: -6.5vw
+    color: white
+    padding-right: 18%
+    text-decoration: none
+    cursor: pointer
+    &:hover
+      text-decoration: underline
+      transform: scale(1.05)
+.order_links
+  &:hover
+    z-index: 5
+    text-decoration: underline
+    transform: scale(1.05)
+.line
+  position: relative
+  width: 20px
+  left: 7vw
+  top: -4vw
+
+.button_container
+  width: 80%
+  margin-left: 5%
+
+.order_card
+  position: relative
+  margin: auto
+  font-size: .7vw
+  color: black
+  background-color: white
+  box-shadow: 0px 1px 0px rgba(41, 41, 41, 0.13)
+  margin-top: 7vw
+  max-width: 90%
+  margin-bottom: 2.5vw
+  padding: 4%
+  box-sizing: border-box
+  border-radius: 2%
+  p
+    margin: 0
+    padding: 1%
+    margin-left: 2%
+    &:nth-of-type(5), &:nth-of-type(6)
+      padding-top: 6%
+      color: grey
+  input[type="button"]
+    position: relative
+    width: 30%
+    margin-left: 1%
+    font-size: 1vw
+    right: 0
+    margin-top: 1.5vw
+    bottom: 0
+    background-color: #5193DD
+    color: #d5d3d4
+    &:nth-of-type(3)
+      background-color: white
+      color: grey
+  span
+    position: absolute
+    margin: 0
+    padding: 3%
+    left: 5vw
+    top: 6vw
+    &:nth-of-type(2)
+      top: 8vw
+
+.order_bullet
+  position: absolute
+  margin: 0
+  padding: 0
+  top: -2vw
+  height: .8vw
+  width: .8vw
+  border: .5px solid #5193DD
+  color: grey
+  border-radius: 50%
+  span
+    position: absolute
+    top: 0
+    left: 1.5vw
